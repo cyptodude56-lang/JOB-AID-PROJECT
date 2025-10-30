@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISI Final Expense Life Insurance Job Aid</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: #fff;
+            padding: 25px 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .section {
+            padding: 30px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .section h2 {
+            color: #1e40af;
+            font-size: 1.7rem;
+            margin-bottom: 18px;
+            border-bottom: 3px solid #dbeafe;
+            padding-bottom: 8px;
+            display: inline-block;
+        }
+        .section h3 {
+            color: #1e3a8a;
+            font-size: 1.4rem;
+            margin: 20px 0 12px;
+            display: flex;
+            align-items: center;
+        }
+        .section h3::before {
+            content: "🛡️";
+            margin-right: 8px;
+            font-size: 1.2rem;
+        }
+        .section h4 {
+            color: #1e40af;
+            font-size: 1.2rem;
+            margin: 15px 0 10px;
+        }
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background: #dbeafe;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 5px solid #3b82f6;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 18px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+        }
+        .card h4 {
+            color: #1e40af;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+        th {
+            background: #1e40af;
+            color: #fff;
+            padding: 14px;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 12px 14px;
+            border-bottom: 1px solid #e5e7eb;
+            vertical-align: top;
+        }
+        tr:nth-child(even) td {
+            background: #f8fafc;
+        }
+        .script-box {
+            background: #1e1e2e;
+            color: #c6d0f5;
+            padding: 18px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            margin: 15px 0;
+            line-height: 1.5;
+        }
+        .script-box .tag {
+            color: #f472b6;
+            font-weight: bold;
+        }
+        .script-box .placeholder {
+            color: #fbbf24;
+            font-style: italic;
+        }
+        .contact-info {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-info h4 {
+            color: #60a5fa;
+            margin-bottom: 10px;
+        }
+        .badge {
+            display: inline-block;
+            background: #10b981;
+            color: #fff;
+            font-size: 0.8rem;
+            padding: 4px 10px;
+            border-radius: 20px;
+            margin-left: 8px;
+            font-weight: 600;
+        }
+        .warning {
+            background: #fee2e2;
+            border: 1px solid #f87171;
+            color: #991b1b;
+            padding: 12px;
+            border-radius: 6px;
+            margin: 12px 0;
+        }
+        .objection {
+            background: #fef3c7;
+            border-left: 5px solid #d97706;
+            padding: 12px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+        .objection h4 {
+            color: #b45309;
+            margin-bottom: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f1f5f9;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Insurance Supermarket International (ISI) Job Aid</h1>
+            <p>Final Expense & Life Insurance | EMC National Life Partner | Call Center & Advisor Guide</p>
+        </header>
+
+        <!-- Company Overview -->
+        <div class="section">
+            <h2>Company & Process Overview</h2>
+            <div class="highlight">
+                <strong>Insurance Supermarket International Inc. (ISI)</strong> collaborates with <strong>EMC National Life</strong> to offer life insurance products.
+            </div>
+
+            <h3>End-to-End Client Journey</h3>
+            <ol>
+                <li><strong>Client Outreach by Calls Experts Call Center:</strong> Initiate contact, discuss needs, qualify eligibility.</li>
+                <li><strong>Client Engagement & Information Gathering:</strong> Collect essential info during the call.</li>
+                <li><strong>Transfer to Licensed Advisors:</strong> Connect to one of <strong>200+ licensed advisors</strong>.</li>
+                <li><strong>Policy Discussion & Customization:</strong> Advisors explain EMC products and tailor policies.</li>
+                <li><strong>Application Process:</strong> Guide through documentation and submission.</li>
+                <li><strong>Policy Issuance:</strong> EMC National Life issues approved policy.</li>
+            </ol>
+
+            <div class="grid">
+                <div class="card">
+                    <h4>Advisor Standards</h4>
+                    <ul>
+                        <li>Thoroughly screened</li>
+                        <li>No criminal record (highly regulated)</li>
+                        <li>Upscale, professional citizens</li>
+                        <li>Represent reputable carriers</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Licensing & Coverage</h4>
+                    <ul>
+                        <li><strong>200+ advisors</strong> (US department, expanding)</li>
+                        <li>Licensed in <strong>all states except NY, NJ, DE</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <h4>US Department Contact</h4>
+                <p><strong>Address:</strong> Cambridge Innovation Center, 1951 NW 7th Avenue #600, Miami, FL 33136</p>
+                <p><strong>Phone:</strong> 1 (877) 878-7007</p>
+                <p><strong>Website:</strong> <a href="https://insurance-supermarket.com" style="color:#60a5fa;">insurance-supermarket.com</a></p>
+            </div>
+        </div>
+
+        <!-- Insurance Glossary -->
+        <div class="section">
+            <h2>Insurance Terminology Glossary</h2>
+            <div class="grid">
+                <div class="card">
+                    <h4>Premium</h4>
+                    <p>Amount paid by policyholder for coverage.</p>
+                </div>
+                <div class="card">
+                    <h4>Deductible</h4>
+                    <p>Out-of-pocket amount before coverage begins.</p>
+                </div>
+                <div class="card">
+                    <h4>Policy</h4>
+                    <p>Contract outlining coverage terms.</p>
+                </div>
+                <div class="card">
+                    <h4>Coverage</h4>
+                    <p>Scope of protection (risks/events covered).</p>
+                </div>
+                <div class="card">
+                    <h4>Claim</h4>
+                    <p>Request for payment due to covered loss.</p>
+                </div>
+                <div class="card">
+                    <h4>Beneficiary</h4>
+                    <p>Person/entity receiving proceeds (e.g., family).</p>
+                </div>
+                <div class="card">
+                    <h4>Underwriting (Simplified)</h4>
+                    <p>Risk evaluation via health questionnaire.</p>
+                </div>
+                <div class="card">
+                    <h4>Policyholder</h4>
+                    <p>Owner entitled to benefits.</p>
+                </div>
+                <div class="card">
+                    <h4>Advisor</h4>
+                    <p>Licensed rep who sells & services policies.</p>
+                </div>
+                <div class="card">
+                    <h4>Renewal</h4>
+                    <p>Extending policy beyond original term.</p>
+                </div>
+                <div class="card">
+                    <h4>Premium Adjustment</h4>
+                    <p>Change in premium due to risk/coverage shifts.</p>
+                </div>
+                <div class="card">
+                    <h4>Rider</h4>
+                    <p>Add-on for extra coverage (e.g., critical illness, waiver of premium).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Final Expense Insurance -->
+        <div class="section">
+            <h2>What is Final Expense Life Insurance?</h2>
+            <div class="highlight">
+                <strong>Definition:</strong> Whole life insurance designed to cover end-of-life costs (funeral, burial, medical bills, debts). Ensures family is not financially burdened.
+            </div>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li><strong>Smaller Death Benefits:</strong> $5,000 – $50,000</li>
+                <li><strong>No Medical Exams:</strong> Health questionnaire only (<em>all over the phone</em>)</li>
+                <li><strong>Fixed Premiums:</strong> Never increase</li>
+                <li><strong>Lifetime Coverage:</strong> As long as premiums paid</li>
+                <li><strong>Quick Payouts:</strong> Within days of approval</li>
+            </ul>
+
+            <h3>Target Market</h3>
+            <ul>
+                <li>Ages <strong>18–80</strong></li>
+                <li>Fixed income (Social Security, disability)</li>
+                <li>Concerned about funeral costs: <strong>$8,000–$14,000 avg</strong></li>
+            </ul>
+
+            <h3>Why It Matters</h3>
+            <ul>
+                <li>Removes financial burden during grief</li>
+                <li>Peace of mind & pre-planning</li>
+                <li>Highly accessible for seniors</li>
+            </ul>
+
+            <h3>Benefits of Final Expense</h3>
+            <div class="grid">
+                <div class="card">
+                    <h4>Peace of Mind</h4>
+                    <p>Families avoid stress of funding final arrangements.</p>
+                </div>
+                <div class="card">
+                    <h4>No Financial Burden</h4>
+                    <p>Covers funeral, debts; no borrowing or fundraising.</p>
+                </div>
+                <div class="card">
+                    <h4>Easy to Qualify</h4>
+                    <p>No exams, simple questionnaire.</p>
+                </div>
+                <div class="card">
+                    <h4>Lifetime Coverage</h4>
+                    <p>Fixed premiums, no expiration.</p>
+                </div>
+                <div class="card">
+                    <h4>Fast Payout</h4>
+                    <p>48–72 hours after claim approval.</p>
+                </div>
+                <div class="card">
+                    <h4>Affordable</h4>
+                    <p>Tailored to budget; state-approved plans.</p>
+                </div>
+            </div>
+
+            <h3>Key Points</h3>
+            <ol>
+                <li><strong>Affordable Premiums:</strong> Fit fixed incomes; state-approved.</li>
+                <li><strong>No Medical Exams:</strong> Health questions only.</li>
+                <li><strong>Immediate Benefits:</strong> Depending on policy (accidental death full from Day 1).</li>
+            </ol>
+        </div>
+
+        <!-- Other Insurance Types -->
+        <div class="section">
+            <h2>Life Insurance Product Comparison</h2>
+
+            <h3>Whole Life Insurance</h3>
+            <div class="highlight">
+                Permanent coverage with cash value. Guaranteed death benefit + savings component.
+            </div>
+            <ul>
+                <li>Lifetime coverage</li>
+                <li>Fixed premiums</li>
+                <li>Cash value grows tax-deferred</li>
+                <li>Guaranteed payout</li>
+                <li>Higher premiums than term</li>
+            </ul>
+            <p class="warning"><strong>Cons:</strong> High cost, slow cash growth, complexity, loan interest reduces benefit.</p>
+
+            <h3>Term Life Insurance</h3>
+            <div class="highlight">
+                Temporary coverage (10/20/30 years). Pure protection, no cash value.
+            </div>
+            <ul>
+                <li>Lower premiums</li>
+                <li>High coverage ($50K–$1M+)</li>
+                <li>Medical exam often required</li>
+                <li>Renewable/convertible</li>
+            </ul>
+            <p class="warning"><strong>Cons:</strong> Expires, no payout if outlived, premiums rise with age.</p>
+
+            <h3>Universal Life Insurance</h3>
+            <div class="highlight">
+                Permanent + flexible premiums & benefits. Cash value tied to interest/investments.
+            </div>
+            <ul>
+                <li>Lifelong coverage</li>
+                <li>Adjustable premiums & death benefit</li>
+                <li>Cash value growth (variable)</li>
+                <li>Tax advantages</li>
+            </ul>
+            <p class="warning"><strong>Cons:</strong> Complex, higher fees, lapse risk, fluctuating growth.</p>
+
+            <h3>Product Comparison Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Insurance Type</th>
+                        <th>Key Features</th>
+                        <th>Purpose</th>
+                        <th>Premiums</th>
+                        <th>Coverage Length</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Term Life</strong></td>
+                        <td>Coverage for specific term<br>No cash value</td>
+                        <td>Income replacement, debt coverage</td>
+                        <td>Lower</td>
+                        <td>Temporary (expires)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Whole Life</strong></td>
+                        <td>Permanent + cash value<br>Small benefits ($5K–$50K)</td>
+                        <td>Lifetime protection + savings<br>Funeral costs</td>
+                        <td>Affordable, fixed</td>
+                        <td>Lifetime</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Universal Life</strong></td>
+                        <td>Flexible premiums & benefits<br>Cash value linked to investments</td>
+                        <td>Protection + investment</td>
+                        <td>Varies</td>
+                        <td>Lifetime</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Product Offerings -->
+        <div class="section">
+            <h2>ISI Product Offerings</h2>
+
+            <div class="grid">
+                <div class="card">
+                    <h4>🛡️ EasyLife Whole Life Insurance <span class="badge">FULL DAY 1</span></h4>
+                    <ul>
+                        <li><strong>Eligibility:</strong> Ages 18–80</li>
+                        <li><strong>Coverage:</strong> $5,000 – $50,000</li>
+                        <li><strong>Full Coverage from Day 1</strong></li>
+                        <li><strong>Multiple Risk Classes</strong></li>
+                    </ul>
+                    <p><strong>No-Cost Riders:</strong></p>
+                    <ul>
+                        <li>🔹 <strong>Terminal Illness ADB:</strong> Up to 75% advance</li>
+                        <li>🔹 <strong>Seat Belt Benefit:</strong> +10% if accident with seatbelt</li>
+                    </ul>
+                    <p>Data-driven whole life insurance. Planning for final expenses, covering debts and leaving a legacy are stressful decisions many people avoid. However, making choices about these matters does not have to be difficult. Easy Life is a whole life insurance product designed for ease and simplicity. It is an online-only product that is immediately issued.</p>
+                    <p><strong>Easy Life Highlights:</strong> No medical exam, Simplified underwriting, Short form application, Issue ages 18-80, Coverage amounts from $2,000 - $50,000, Guaranteed cash values, level death benefit and level premiums, Accelerated Death Benefit and Seat Belt Benefit Riders included at no additional cost in states where approved</p>
+                </div>
+
+                <div class="card">
+                    <h4>🛡️ Graded Whole Life Insurance <span class="badge">GRADED</span></h4>
+                    <ul>
+                        <li><strong>Eligibility:</strong> Ages 18–80</li>
+                        <li><strong>Coverage:</strong> $2,000 – $25,000</li>
+                        <li><strong>Accidental Death:</strong> Full from Day 1</li>
+                    </ul>
+                    <p><strong>Graded Death Benefit (Natural Causes):</strong></p>
+                    <ul>
+                        <li>Year 1: 110% of premiums</li>
+                        <li>Year 2: 120% of premiums</li>
+                        <li>Year 3+: Full coverage</li>
+                    </ul>
+                    <p>Graded life provides protection for a lifetime at a guaranteed fixed price.</p>
+                    <p><strong>Graded Life Highlights:</strong> Guaranteed death benefit, cash values and premiums, Coverage amounts from $2,000 - $25,000, Options for the future (surrender cash values or reduced paid-up insurance) Accelerated Death Benefit Rider and Seat Belt Benefit Rider available in states where approved</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Partner Information -->
+        <div class="section">
+            <h2>Partner Information: EMC National Life</h2>
+            <div class="highlight">
+                <strong>EMC - Employers Mutual Casualty</strong><br>
+                Founded in 1911<br>
+                Rated A+ by AM Best Company and BBB<br>
+                <a href="https://www.emcins.com" style="color:#3b82f6;">https://www.emcins.com</a><br>
+                City: Des Moines (Capital City of State Iowa)<br>
+                (French Name) pronunciation: (Di-Moy-n)
+            </div>
+        </div>
+
+        <!-- Underwriting Factors -->
+        <div class="section">
+            <h2>Underwriting & Qualification Factors</h2>
+            <div class="highlight">
+                Use these to qualify clients, rebuttal objections, and secure preferred rates.
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <h4>Reason for Insurance</h4>
+                    <p>Match product to need (funeral, debt, income replacement).</p>
+                </div>
+                <div class="card">
+                    <h4>Height & Weight</h4>
+                    <p>Within ratio = <strong>Preferred Rates</strong> (lower premiums). MUST BE IN THE WEIGHT RANGE. Example: Pavel is 6 foot, so your weight is between 118 and 339 pounds, correct? Perfect great weight!</p>
+                </div>
+                <div class="card">
+                    <h4>Medical Conditions</h4>
+                    <p>Key determinant of rate class. Ask health questions early. Have you had any major medical conditions, like dementia, stroke, cancer, heart conditions, kidney issues? And are you currently hospitalized? (MAKE SURE YOU'RE CRYSTAL CLEAR)</p>
+                </div>
+                <div class="card">
+                    <h4>Gender & Age</h4>
+                    <p>Females live longer → lower rates. Age impacts mortality risk.</p>
+                </div>
+                <div class="card">
+                    <h4>Lifestyle & Occupation</h4>
+                    <p>High-risk jobs/hobbies increase rates or limit eligibility.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Company Highlights -->
+        <div class="section">
+            <h2>Company Highlights & Value Propositions</h2>
+            <ul>
+                <li><strong>💵 Cost of Rates Customization:</strong> ✨ Our rates are absolutely free with no obligations—you only pay for coverage you choose!</li>
+                <li><strong>💰 Cost of Coverage:</strong> 🎯 We offer the most competitive and affordable prices in the market, ensuring you get the best value for your money.</li>
+                <li><strong>📜 Certification and Experience:</strong> ⭐ We partner with A+ rated providers by the BBB, boasting 15+ years of expertise in the insurance industry. You’re in trusted hands!</li>
+                <li><strong>👩‍💼 Licensed Dedicated Advisor:</strong> 📍 Our licensed advisors are available in all states, offering personalized consultations for free to guide you and your family every step of the way.</li>
+                <li><strong>💳 Budget Consideration:</strong> 🪙 Designed with low or limited income earners in mind, our rates are tailored to fit your budget while ensuring quality coverage.</li>
+                <li><strong>🚀 Approval Process Time:</strong> ⏱️ Enjoy an immediate and quick approval process, so you can secure your coverage without delays.</li>
+                <li><strong>📂 Ease of Process:</strong> 🩺 No medical exams and 📄 no tedious paperwork required—hassle-free from start to finish!</li>
+                <li><strong>⚡ Ease of Claims:</strong> ⏳ Experience quick claims payouts—insurance benefits are processed within 24 to 48 hours for your peace of mind.</li>
+                <li><strong>🔄 Updates and Reviews:</strong> 📆 We provide regular plan reviews with new packages and policy upgrades, ensuring you always have the best options available.</li>
+            </ul>
+            <p>🎉 Your peace of mind and satisfaction is our priority! Let us help you and your family find the best coverage today! 😊</p>
+
+            <h3>Why Reviewing Older Policies Matters</h3>
+            <div class="highlight">
+                <strong>Inflation's Impact:</strong><br>
+                A $20,000 policy in 2005 is equivalent to $30,250 in 2025.<br>
+                A $20,000 policy in 2015 is equivalent to $24,000 in 2025.<br>
+                This means coverage from 10-20 years ago has less purchasing power today.
+            </div>
+            <ul>
+                <li><strong>Strength of Coverage:</strong> May no longer suffice for expenses.</li>
+                <li><strong>Policy Relevance:</strong> Life changes (marriage, children, debts).</li>
+                <li><strong>Cost Efficiency:</strong> Newer policies may offer better rates.</li>
+            </ul>
+            <p><strong>Action Steps:</strong> Initiate conversation on inflation/life changes, assess needs, offer alternatives.</p>
+        </div>
+
+        <!-- Call Scripts -->
+        <div class="section">
+            <h2>Calls Experts Outbound Scripts</h2>
+            <div class="warning">
+                <strong>Script Flow:</strong> Introduction → Verification → Discovery → Qualification → Payment → Additional Discovery → Live Transfer
+            </div>
+
+            <h3>1. Intro With Name</h3>
+            <div class="script-box">
+                Hey <span class="placeholder">#FirstName#</span> <span class="placeholder">#LastName#</span>?<br>
+                <span class="tag">(Confirm name before proceeding)</span><br><br>
+
+                <span class="placeholder">#Rep#</span> here, with Insurance Supermarket.<br>
+                I'm following up on your past inquiry for final expense life insurance available in <span class="placeholder">#State#</span>.<br>
+                It seems we tried to reach you before but couldn’t assist at the time.
+            </div>
+
+            <h3>2. Intro Without Name</h3>
+            <div class="script-box">
+                Hi there, this is <span class="placeholder">#Rep#</span> with Insurance Supermarket.<br>
+                I’m following up on a past inquiry about final expense life insurance in <span class="placeholder">#State#</span>.<br>
+                It looks like we couldn’t reach you before, but I’m glad we’re connected now.<br><br>
+
+                Just so I know who I’m speaking with—may I have your name, please?<br>
+                <span class="tag">(Wait for response)</span><br><br>
+
+                Thanks, <span class="placeholder">#FirstName#</span>! As I was saying—we now have <strong>NEW state-approved plans</strong> that can fit almost any budget…
+            </div>
+
+            <h3>3. Core Pitch</h3>
+            <div class="script-box">
+                I'm calling today because we have some <strong>NEW state-approved plans</strong> that can fit any budget.<br>
+                Insurance Supermarket advisors are licensed in <span class="placeholder">#State#</span> to shop the <strong>TOP insurance companies</strong> and find the best plan for you, at the lowest rate available.<br>
+                We're your <strong>one-stop shop</strong> for insurance!<br><br>
+
+                Before we proceed, I'm required to inform you this call may be recorded for quality and training purposes.<br><br>
+
+                <span class="placeholder">#FirstName#</span> <span class="placeholder">#LastName#</span>, these final expense plans have been filed and approved with the Department of Insurance in <span class="placeholder">#State#</span>.<br>
+                They’re designed for residents over 50, typically on Social Security or disability.<br>
+                These aren’t your large, expensive plans but will cover necessities and possibly leave a small amount for your family.<br><br>
+
+                Our licensed advisors will guide you through the entire process to make it easy for you.
+            </div>
+
+            <h3>4. Verification</h3>
+            <div class="script-box">
+                <span class="placeholder">#FirstName#</span> <span class="placeholder">#LastName#</span>, I have your address as <span class="placeholder">#Address#</span><br>
+                And your Zip code as <span class="placeholder">#ZipCode#</span>. Correct?<br><br>
+
+                <span class="tag">🔹 ZIP Codes: Read as individual digits!</span><br>
+                ✅ 97236 = "Nine Seven Two Three Six"<br>
+                ❌ "Nine, seven, two thirty six" or "Ninety-seven thousand..."
+            </div>
+
+            <h3>5. Current Coverage Question</h3>
+            <div class="script-box">
+                Thank you!<br><br>
+                <span class="placeholder">#FirstName#</span> <span class="placeholder">#LastName#</span>, what Life Insurance company do you currently have?
+            </div>
+
+            <h3>6. Branch: If They Don’t Have Insurance</h3>
+            <div class="script-box">
+                “Oh, really? <span class="placeholder">#FirstName#</span> You don’t have insurance? When was the last time you had life insurance?”<br><br>
+                "Wow, that long? Or never?"<br><br>
+                "Well, I’m glad we connected today. We can help protect your loved ones. Let me ask who would be responsible for your final expenses if something were to happen to you?"
+            </div>
+
+            <h3>6. Branch: If They Have Insurance</h3>
+            <div class="script-box">
+                "Great! How long have you had that policy? What’s the face amount?"<br><br>
+                <span class="placeholder">#FirstName#</span> <span class="placeholder">#LastName#</span> most people don’t realize that you need to medically qualify for life insurance.<br><br>
+                We work with multiple companies to ensure you get the right plan.<br><br>
+                Our Senior Advisors will do their best to get you qualified but if for some reason you do not qualify, please don’t hold it against us.<br><br>
+                Can you confirm your date of birth?<br><br>
+                And, what’s your height, and weight?<br><br>
+                <span class="tag">MUST BE IN THE WEIGHT RANGE</span><br>
+                Example Pavel is 6 foot,  so your weight is between 118 and 339 pounds, correct? Perfect great weight !<br><br>
+                Have you had any major medical conditions, like<br>
+                dementia,<br>
+                stroke,<br>
+                cancer,<br>
+                heart conditions,<br>
+                kidney issues,<br>
+                And are you currently hospitalized ?<br>
+                <span class="tag">(MAKE SURE YOU'RE CRYSTAL CLEAR)</span>
+            </div>
+
+            <h3>7. Additional Discovery Questions</h3>
+            <div class="script-box">
+                1) So you said we are looking to protect _________?<br><br>
+                <span class="tag">(This question helps understand their motivations and priorities, building rapport while allowing you to tailor the conversation towards their specific concerns (e.g., family, debts, medical expenses).</span><br><br>
+                Based on this question we can ask:<br><br>
+                A. Are you married? (Share your relationship status and name of your loved one)<br>
+                (If married or in a relationship) What is the name of your loved one?<br><br>
+                B. Do you have any children? How many? What are the names?  (Share feedback and your story)<br><br>
+                Now most of my clients are trying to make sure that when the time comes, they aren’t leaving a financial burden on their family, is that how you feel?<br><br>
+                I can definitely understand that.<br>
+                I speak to people all over the country and no matter how different each person may be, they all have one thing in common - they want to protect the ones they love…<br><br>
+                2) So, in the event of your passing...<br>
+                Would you and your family want to have a traditional burial, or a cremation for you?<br><br>
+                3) And is there anything else - like small debts, loans, or credit card balances, that you’re looking for the coverage to pay for as well?<br><br>
+                4) Would you like to leave any additional money behind for your loved ones?
+            </div>
+
+            <h3>Discovery Questions Purposes</h3>
+            <ol>
+                <li><strong>“So you said we are looking to protect ______?”</strong><br>
+                    Purpose: Reframes the conversation and reconnects with what the client shared earlier. Reinforces emotional engagement by confirming who the client wants to protect (spouse, children, parents, etc.). Helps steer the conversation toward the client’s priorities (e.g., family, debts, medical expenses).</li>
+                <li><strong>“Are you married?” / “Do you have children? What are their names?”</strong><br>
+                    Purpose: Deepens emotional connection by having the client speak about loved ones. Triggers visualization — the client is now thinking about real people, not just an insurance product. Adds depth to the motivation behind the coverage, making the conversation more personal and impactful.</li>
+                <li><strong>“Now most of my clients are trying to make sure that when the time comes, they aren’t leaving a financial burden on their family. Is that how you feel?”</strong><br>
+                    Purpose: Introduces social proof — normalizes the need for coverage by showing others do the same. Makes the emotional cost of doing nothing more tangible. Encourages the client to agree with a shared goal, building buy-in.</li>
+                <li><strong>“So in the event of your passing, would you and your family want to have a traditional burial, or a cremation?”</strong><br>
+                    Purpose: Creates real-world consequence awareness by having the client consider an actual event. Moves the conversation from theory to reality — makes the situation feel real. Links back to the financial impact of death and frames coverage as planning, not fear-based selling.</li>
+                <li><strong>“Is there anything else – like small debts, loans, or credit card balances – that you’re looking for the coverage to pay for as well?”</strong><br>
+                    Purpose: Gives the client space to think beyond basic burial needs. Opens the conversation toward total protection and financial peace of mind. Shows that the policy can be custom-fit to their situation, not just generic.</li>
+                <li><strong>“Would you like to leave any additional money behind for your loved ones?”</strong><br>
+                    Purpose: Shifts the mindset from defensive (covering costs) to legacy-focused. Encourages the client to consider leaving a gift or financial support, not just avoiding a burden. Adds emotional weight by reinforcing the idea of providing even after they’re gone.</li>
+            </ol>
+
+            <h3>8. Qualification & Budget Explanation</h3>
+            <div class="script-box">
+                Now <span class="placeholder">#FirstName#</span> we understand that with inflation, and today’s cost of living, every dollar is important.<br><br>
+                That’s why these Special Final Expense Life Insurance Plans are designed to help those who are usually living on a FIXED, or LIMITED income each month and these plans are set up through your bank just like Social Security and Disability.<br><br>
+                Now <span class="placeholder">#FirstName#</span>, Who do you bank with?<br><br>
+                <span class="tag">Banks we DO NOT work with:</span><br>
+                1. CHIME<br>
+                2. Sutton Bank<br>
+                3. Bancorp<br>
+                4. Stride<br>
+                5. VARO<br>
+                6. Cash APP<br>
+                7. META<br>
+                8. Pathward<br>
+                9. Go2<br>
+                10. Green Dot<br>
+                11. Net Spend<br>
+                12. One Bank<br>
+                13. SOFI (pronounced "SO-FI")<br>
+                14. Direct Express<br>
+                15. PayPal<br><br>
+                If you qualify, these plans cover end-of-life expenses and typically pay out within a few days of a claim, making it the first money your family will receive.
+            </div>
+
+           <!-- <h3>8. Additional Discovery Questions</h3>
+            <div class="script-box">
+                1) So you said we are looking to protect _________?<br><br>
+                <span class="tag">(This question helps understand their motivations and priorities, building rapport while allowing you to tailor the conversation towards their specific concerns (e.g., family, debts, medical expenses).</span><br><br>
+                Based on this question we can ask:<br><br>
+                A. Are you married? (Share your relationship status and name of your loved one)<br>
+                (If married or in a relationship) What is the name of your loved one?<br><br>
+                B. Do you have any children? How many? What are the names?  (Share feedback and your story)<br><br>
+                Now most of my clients are trying to make sure that when the time comes, they aren’t leaving a financial burden on their family, is that how you feel?<br><br>
+                I can definitely understand that.<br>
+                I speak to people all over the country and no matter how different each person may be, they all have one thing in common - they want to protect the ones they love…<br><br>
+                2) So, in the event of your passing...<br>
+                Would you and your family want to have a traditional burial, or a cremation for you?<br><br>
+                3) And is there anything else - like small debts, loans, or credit card balances, that you’re looking for the coverage to pay for as well?<br><br>
+                4) Would you like to leave any additional money behind for your loved ones?
+            </div>
+
+            <h3>Discovery Questions Purposes</h3>
+            <ol>
+                <li><strong>“So you said we are looking to protect ______?”</strong><br>
+                    Purpose: Reframes the conversation and reconnects with what the client shared earlier. Reinforces emotional engagement by confirming who the client wants to protect (spouse, children, parents, etc.). Helps steer the conversation toward the client’s priorities (e.g., family, debts, medical expenses).</li>
+                <li><strong>“Are you married?” / “Do you have children? What are their names?”</strong><br>
+                    Purpose: Deepens emotional connection by having the client speak about loved ones. Triggers visualization — the client is now thinking about real people, not just an insurance product. Adds depth to the motivation behind the coverage, making the conversation more personal and impactful.</li>
+                <li><strong>“Now most of my clients are trying to make sure that when the time comes, they aren’t leaving a financial burden on their family. Is that how you feel?”</strong><br>
+                    Purpose: Introduces social proof — normalizes the need for coverage by showing others do the same. Makes the emotional cost of doing nothing more tangible. Encourages the client to agree with a shared goal, building buy-in.</li>
+                <li><strong>“So in the event of your passing, would you and your family want to have a traditional burial, or a cremation?”</strong><br>
+                    Purpose: Creates real-world consequence awareness by having the client consider an actual event. Moves the conversation from theory to reality — makes the situation feel real. Links back to the financial impact of death and frames coverage as planning, not fear-based selling.</li>
+                <li><strong>“Is there anything else – like small debts, loans, or credit card balances – that you’re looking for the coverage to pay for as well?”</strong><br>
+                    Purpose: Gives the client space to think beyond basic burial needs. Opens the conversation toward total protection and financial peace of mind. Shows that the policy can be custom-fit to their situation, not just generic.</li>
+                <li><strong>“Would you like to leave any additional money behind for your loved ones?”</strong><br>
+                    Purpose: Shifts the mindset from defensive (covering costs) to legacy-focused. Encourages the client to consider leaving a gift or financial support, not just avoiding a burden. Adds emotional weight by reinforcing the idea of providing even after they’re gone.</li>
+            </ol><br>-->
+
+            <h3>9. Transition to Advisor</h3>
+            <div class="script-box">
+                <span class="placeholder">#FirstName#</span> <span class="placeholder">#LastName#</span> Thank you so much for sharing all of that important information with me. It really helps us understand what's most important to you and your loved ones. Based on what you've told me, I can tell that you deeply care about making sure spouse's/children's names are well taken care of. That's exactly what we're here to help with.<br><br>
+                Before I pass you over to your personal licensed advisor, I just want to assure you that they'll do everything they can to find a plan that not only fits your needs but also gives you the peace of mind you're looking for. Hang tight for a quick moment while I connect you, and we’ll take it from there.<br><br>
+                <span class="tag">🤝 Transition Purpose:</span><br>
+                “Thank you so much for sharing… I can tell that you deeply care about making sure [spouse’s/children’s names] are well taken care of...”<br>
+                Purpose: Shows empathy and active listening — reflects the client’s words and emotions back to them. Reinforces their intentions and motivations, validating their concerns. Smooths the handoff by positioning the advisor as someone who will continue the care and support the client deserves.<br><br>
+                “Before I pass you over to your personal licensed advisor…”<br>
+                Purpose: Clearly communicates the transition. Reinforces the value of what’s coming next (licensed expert, personal plan, peace of mind). Keeps the client emotionally engaged and cooperative for the advisor handoff.
+            </div>
+
+            <h3>10. No-Cost Prescription Program</h3>
+            <div class="script-box">
+                <span class="placeholder">#FirstName#</span> <span class="placeholder">#LastName#</span> Thank you for replying to my questions. Based on your profile it also looks like you are qualified for our no-cost program that lets you save on prescription medications. Congratulations! I will send you the link where you can get the coupons and the list of the pharmacies where you can use it. Before I add one of our licensed insurance advisors to the call I’d like to provide you with full access to the program. I have to ask - do I have your permission to email you details and updates about our programs? <span class="tag">(after a YES)</span> Thank you. Can you please provide me with your email address?<br><br>
+                <span class="tag">(ask for permission to send SMS when the option is available)</span><br><br>
+                Wonderful! You will receive a confirmation email shortly. There will be a discount card that you and your family can use to get a special discount for prescribed medication.<br><br>
+                Ok, thanks for sharing that with me <span class="placeholder">#FirstName#</span> , I’m going to get all this information ready for you so we can generate your rates.<br><br>
+                I can tell that you deeply care about making sure your loved ones are well taken care of. That's exactly what we're here to help with.
+            </div>
+
+            <h3>11. When Advisor Joins</h3>
+            <div class="script-box">
+                Adv: Insurance Supermarket this is <span class="placeholder">(Advisor Name)</span><br><br>
+                Qualifier: Hey, <span class="placeholder">(Advisor Name)</span> It’s <span class="placeholder">#Rep#</span> and I have <span class="placeholder">#FirstName#</span> <span class="placeholder">#LastName#</span> on the phone with us from <span class="placeholder">#State#</span> !<br><br>
+                Qualifier:  <span class="placeholder">#FirstName#</span> <span class="placeholder">#LastName#</span>  <span class="placeholder">(Advisor Name)</span>  is a SENIOR ADVISOR with Insurance Supermarket  & has a great track record of helping clients like yourself secure peace of mind for their loved ones.<br><br>
+                <span class="placeholder">(Advisor Name)</span> , <span class="placeholder">#FirstName#</span> <span class="placeholder">#LastName#</span> is considering life insurance to ensure their family is well taken care of in the future.<br>
+                <span class="tag">(add persons name & personal Info)</span>
+            </div>
+
+            <h3>Disqualification</h3>
+            <div class="script-box">
+                <span class="tag">If Client is disqualified due to age, medical condition, height and weight or method of payment,</span><br><br>
+                “We are sorry, currently we're unable to proceed at this time. Once we have a product that suits your needs we will reach out to you, thank you for your time and have a nice day. Good bye”
+            </div>
+        </div>
+
+        <!-- Objection Handling -->
+        <div class="section">
+            <h2>Objection Handling</h2>
+            <div class="highlight">
+                <strong>What is an Objection?</strong><br>
+                An objection in a sales call refers to a client or prospect expressing a concern, hesitation, or disagreement regarding a product, service, or offer. Objections can arise due to various reasons, such as cost, perceived value, fit with their needs, trust, competition, or any other factor that creates resistance to making a purchasing decision.
+            </div>
+
+            <h3>Reasons Clients May Drop the Call</h3>
+            <ul>
+                <li>Lack of Interest: The client may not currently see a need for life insurance or may not be interested in discussing financial planning at that moment.</li>
+                <li>Previous Negative Experience: The client may have had a negative experience with life insurance in the past or may have heard negative stories from others, leading them to be skeptical or uninterested.</li>
+                <li>Financial Constraints: The client may have budgetary constraints or may perceive life insurance as an additional financial burden that they cannot afford at the moment.</li>
+                <li>Time Constraints: The client may be busy or have limited time to engage in a detailed discussion about life insurance during the phone call.</li>
+                <li>Misalignment with Needs: The client may have already purchased life insurance from another provider or may not see the offered policy aligning with their specific needs.</li>
+                <li>Preference for Other Financial Products: The client may have a preference for other financial products or investments and may not prioritize life insurance at that time.</li>
+            </ul>
+
+            <h3>Objection Handling Guidelines</h3>
+            <p><strong>Priority & Secondary Responses:</strong> We have a priority reaction to an objection followed by secondary objection points. (This is just in case you mention a priority objection if the client rebuttals again then we use secondary objection points)</p>
+            <p><strong>Use Client's Name:</strong> Mentioning the client's name is very important. There are 2 main reasons: firstly you’re getting the client’s attention secondly you have a few seconds to get the rebuttal ready to pitch.</p>
+            <p><strong>Avoid Fillers:</strong> We want to avoid filler words like “um”, “ah”, “oh”. When reacting to an objection, using the name is always the best option.</p>
+            <p><strong>Reaction Time:</strong> Once you get familiarized with objection skills, the next important thing to note would be your reaction time to objections. When you have a faster response time you will also have a greater chance in keeping the client on the phone.</p>
+            <p><strong>Acknowledge:</strong> In using objections it's always crucial to take action and be quick with response time, less dead air time is what we want to target. Starting your response with the Client’s First Name is effective in breaking into conversation. It is also effective when a person seems distracted. Formal and informal, using a formal name is often associated with obedience and can be seen as a sign of respect and comfort. Name calling bonds and creates trust between the qualifier and the client.</p>
+            <ol>
+                <li><strong>Acknowledge – Recognize the prospect’s concern to build trust</strong><br>
+                    Shows empathy and makes them feel heard.<br>
+                    Example: "I understand, (Client’s Name). Many clients feel the same way when considering their options."</li>
+                <li><strong>Check – Provide insight or a fact to guide the conversation</strong><br>
+                    This step reassures them and highlights a key benefit.<br>
+                    Example: "The younger and healthier you are, the more affordable life insurance is. Locking in a lower premium now can save you money long-term."</li>
+                <li><strong>Ask – Use a strategic question to move the conversation forward</strong><br>
+                    Encourages engagement and leads back to the sales process.<br>
+                    Example: "Wouldn’t you agree it’s smart to take advantage of this now? Let’s do a quick qualification to see your options."</li>
+            </ol>
+
+            <h3>Word Replacements for Professionalism</h3>
+            <ul>
+                <li>Ask → Enquire</li>
+                <li>Ask for → Request</li>
+                <li>Check → Verify</li>
+                <li>Get → Receive</li>
+                <li>Help → Assist</li>
+                <li>Seem(s) → Appear(s)</li>
+                <li>Kids → Children</li>
+                <li>Tell → Inform</li>
+                <li>Wait for → Await</li>
+                <li>Sorry → Apologize</li>
+                <li>Last question → Final question</li>
+                <li>But → However</li>
+                <li>Go up → Increase</li>
+                <li>1:1 Cheap → Inexpensive</li>
+                <li>Show → Demonstrate</li>
+                <li>Think about → Consider</li>
+                <li>Get in touch with → Contact</li>
+                <li>Right → Correct</li>
+                <li>Need → Request</li>
+            </ul>
+
+            <h3>Tips for Effective Objection Handling</h3>
+            <ul>
+                <li>Ensure you have great tonality: Sounding genuine and concerned will most likely have a calming and positive effect on your client.</li>
+                <li>Be an active listener. To build trust with your prospect, it's essential that they feel like you're actually hearing their concerns.</li>
+                <li>Use empathy to validate the prospect's concerns. A great technique to handle all types of objections is to empathize with your prospect and let them know that you understand where they're coming from. Once you do that, the prospect will lower their guard, and they'll be more open to accept a solution.</li>
+                <li>Build Value: To keep your client engaged and interested, they must see value in our product.</li>
+                <li>Please note that excitement is key in every call. The more excited you are, the less, the chances of your client saying they can’t talk considering they already picked up.</li>
+                <li>Additionally when speaking to clients do not ask do you have time to speak this will help reduce objections all together.</li>
+            </ul>
+
+            <h3>Specific Objections & Responses</h3>
+            <div class="objection">
+                <h4>I'm Not Interested</h4>
+                <p><strong>Acknowledge:</strong> I understand <span class="placeholder">(Clients name)</span> deciding on life insurance can be overwhelming and it’s natural to take time to consider your options do you agree? Many clients feel the same, but taking even a small step now can provide peace of mind and lock in better rates. With that in mind, <span class="placeholder">(Clients name)</span>, have you decided to postpone or do you have a policy in place?</p>
+                <p><strong>Decided to Postpone:</strong> I understand, <span class="placeholder">(Clients name)</span>. It’s normal to want time to consider your options.<br>
+                    <strong>Check:</strong> The younger and healthier you are, the more affordable life insurance is. Securing a policy now locks in lower premiums and avoids higher costs later.<br>
+                    <strong>Ask:</strong> Wouldn’t you agree it’s smart to take advantage of this now? Let’s do a quick qualification to see your options.<br>
+                    <strong>Engage:</strong> I’ll guide you through the process step by step.</p>
+                <p><strong>Policy in Place:</strong> I understand, <span class="placeholder">(Clients name)</span>. It’s great that you’ve already taken steps to secure a policy.<br>
+                    <strong>Check:</strong> Many clients with existing policies find it beneficial to shop the market. You might save money or improve your coverage with a quick review.<br>
+                    <strong>Ask:</strong> Wouldn't you agree it’s worth verifying to see if you qualify for better options? Let’s take a moment to check.<br>
+                    <strong>Engage:</strong> I’ll guide you through the process step by step.</p>
+                <p><strong>Notes:</strong> This is the first and far most common used Objection. It's very important to not only memorize the objection but also have quick and accurate response. This will provide you more confidence. Ensure you have great tonality: Sounding genuine and concerned will most likely have a calming and positive effect on your client. Be an active listener. To build trust with your prospect, it's essential that they feel like you're actually hearing their concerns. Use empathy to validate the prospect's concerns. A great technique to handle all types of objections is to empathize with your prospect and let them know that you understand where they're coming from. Once you do that, the prospect will lower their guard, and they'll be more open to accept a solution. Build Value: To keep your client engaged and interested, they must see value in our product.</p>
+            </div>
+
+            <div class="objection">
+                <h4>I Already Have Life Insurance</h4>
+                <p><strong>Acknowledge:</strong> <span class="placeholder">(Clients name)</span>. It’s great that you’ve already taken steps to secure a policy.<br>
+                    <strong>Check:</strong> Many clients with existing policies find it beneficial to shop the market. You might save money or improve your coverage with a quick review.<br>
+                    <strong>Ask:</strong> Wouldn't you agree it’s worth verifying to see if you qualify for better options? Let’s take a moment to check.<br>
+                    <strong>Engage:</strong> I’ll guide you through the process step by step.</p>
+                <p>Remind the client of the importance of regularly reviewing their insurance coverage to ensure it still meets their needs and goals. Emphasize that circumstances may change over time, and it's essential to ensure their coverage keeps pace with these changes. Highlight potential benefits the client may gain by reviewing their current policy, such as the opportunity to optimize coverage, potentially lower premiums, or access additional benefits or features that weren't available when they obtained their policy.</p>
+            </div>
+
+            <div class="objection">
+                <h4>I Was Expecting an Online Quote</h4>
+                <p><strong>Acknowledge:</strong> [<span class="placeholder">Client's Name</span>]. Many people expect online quotes—it’s a common first step."<br>
+                    <strong>Check:</strong> "Quotes online often aren’t tailored to your specific needs. Speaking directly ensures we get you accurate rates and the right coverage."<br>
+                    <strong>Ask:</strong> "Wouldn’t you agree it’s better to have an accurate quote? Let’s take a moment to find your best option."<br>
+                    <strong>Engage:</strong> "I’ll guide you through the process step by step."</p>
+                <p>Overall, while online quotes may offer convenience and quick access to basic information, speaking to a professional provides clients with personalized advice, expertise, guidance, clarification of coverage, comparison of options, and ongoing support throughout their insurance journey.</p>
+            </div>
+
+            <div class="objection">
+                <h4>Call Me Back, I'm Busy</h4>
+                <p><strong>Acknowledge:</strong> "[<span class="placeholder">Client's Name</span>], I completely understand your time is valuable, and I truly respect that."<br>
+                    <strong>Check:</strong> "The good news is this will only take a couple of minutes, and by completing it now, we can determine your eligibility and avoid any delays. Many of my clients appreciate how quick and simple this process is."<br>
+                    <strong>Ask:</strong> "Wouldn’t you agree it’s worth just a quick moment to secure this now while we have the opportunity?"<br>
+                    <strong>Engage:</strong> "Let’s quickly complete a qualification to see if you’re eligible—I promise to be as quick as I can!"</p>
+                <p>Please make sure to not book for Federal Holidays or weekends unless worked (Managers will be keeping the call center updated on current events)</p>
+            </div>
+
+            <div class="objection">
+                <h4>This Call Seems Like a Scam</h4>
+                <p><strong>Acknowledge:</strong> "[<span class="placeholder">Client's Name</span>], I completely understand why you might feel that way. It’s smart to be cautious these days."<br>
+                    <strong>Check:</strong> "I assure you this is a legitimate call. We are Insurance Supermarket, a licensed and regulated organization. If you'd like, you can verify our credentials directly on the Department of Insurance website for your state. I can provide you with the exact website address or guide you through the process if needed."<br>
+                    <strong>Ask:</strong> "Does that help reassure you? Let’s go ahead and quickly review your options."<br>
+                    <strong>Engage:</strong> "I’ll guide you step by step to make this process as smooth and transparent as possible."</p>
+                <p>Fear of Being Scammed: With the prevalence of scam calls and identity theft, many people are understandably cautious when it comes to unsolicited calls, particularly those from unknown numbers or individuals with accents. Good news! Many legitimate businesses and organizations employ individuals with diverse backgrounds and accents.</p>
+            </div>
+
+            <div class="objection">
+                <h4>I Have a Policy with My Employer</h4>
+                <p><strong>Acknowledge:</strong> "I understand, [<span class="placeholder">Client's Name</span>]. It’s great that your employer provides coverage—that shows they care about their team."<br>
+                    <strong>Check:</strong> "Many clients in similar situations find that employer-provided policies often have limitations. For example, they may not be portable if you change jobs, or the coverage might not be sufficient for your family’s long-term needs."<br>
+                    <strong>Ask:</strong> "Wouldn’t you agree it’s wise to explore options that supplement your current policy and offer more security? Let’s take a quick look at what’s available for you."<br>
+                    <strong>Engage:</strong> "I’ll guide you through the process step by step to ensure you have the best protection."</p>
+                <p>The National Association of Insurance and Financial Advisors (NAIFA) also quoted that Employer Insurance may not be the best option since the employee may lose coverage and or not have enough coverage.</p>
+            </div>
+
+            <div class="objection">
+                <h4>Why Do You Need to Ask Me Medical Questions?</h4>
+                <p><strong>Acknowledge:</strong> "I understand, [<span class="placeholder">Client's Name</span>], it might feel personal to discuss medical details. Many people feel the same way at first."<br>
+                    <strong>Check:</strong> "The reason we ask is that we’re not a guaranteed-issue provider. By gathering this information, we can underwrite your policy, which helps us secure the most cost-effective and tailored coverage for you. This process ensures you’re not overpaying for benefits you don’t need."<br>
+                    <strong>Ask:</strong> "Wouldn’t you agree it’s worth taking a few moments to explore options that save you money and provide the best coverage? Let’s move forward with just a few quick questions."<br>
+                    <strong>Engage:</strong> "I’ll guide you step by step to ensure this process is simple and beneficial for you."</p>
+                <p>Our goal is to find the best possible coverage for you while ensuring that you meet the necessary criteria for the policy. I'm here to assist you in navigating through this process and answering any questions you may have.</p>
+            </div>
+
+            <div class="objection">
+                <h4>I Don't Want to Be Transferred</h4>
+                <p><strong>Acknowledge:</strong> "I completely understand, [<span class="placeholder">Client's Name</span>]. No one likes feeling passed around, and your time is important."<br>
+                    <strong>Check:</strong> "Rather than transferring you, I’ll bring in one of our licensed advisors to join us on the call. This way, you can get expert answers and guidance without any interruptions or repeats."<br>
+                    <strong>Ask:</strong> "Wouldn’t you agree it’s helpful to have an expert on the line to make sure all your questions are answered thoroughly? Let’s make this a smooth process together."<br>
+                    <strong>Engage:</strong> "I’ll stay with you every step of the way while the advisor helps ensure you get the best options available."</p>
+                <p>Addressing these concerns requires clear communication, transparency, and respect for the client's preferences. Call center agents can help alleviate fears by providing reassurance, offering options for self-service or advisor assistance, and emphasizing the value of speaking to an advisor for personalized guidance and support</p>
+            </div>
+
+            <div class="objection">
+                <h4>I Have No One to Care About, Why Do I Need Life Insurance?</h4>
+                <p><strong>Acknowledge:</strong> "I understand, [<span class="placeholder">Client's Name</span>]. Many people feel life insurance is only for those with dependents."<br>
+                    <strong>Check:</strong> "Life insurance can still protect your financial legacy—covering final expenses, paying off debts, or leaving a gift to a cause you care about. It also locks in low rates now, in case your needs change."<br>
+                    <strong>Ask:</strong> "Wouldn’t you agree it’s smart to have a plan in place for peace of mind? Let’s explore some simple, affordable options."<br>
+                    <strong>Engage:</strong> "I’ll guide you step by step to find what works best for you."</p>
+                <p>Additionally, life insurance can offer peace of mind knowing that unexpected expenses or debts won't burden your loved ones in the future. It's a way to protect your own financial interests and ensure that your wishes are honored, regardless of your current situation. Let's explore your options further and see how life insurance can align with your broader financial goals and aspirations."</p>
+            </div>
+
+            <div class="objection">
+                <h4>Why Is the Call Coming Back as a Non-(Client's) State?</h4>
+                <p><strong>Acknowledge:</strong> "Thank you for bringing that to my attention, [<span class="placeholder">Client's Name</span>]. I completely understand why you might notice the difference in area code."<br>
+                    <strong>Check:</strong> "Our company uses a soft phone system that allows us to make calls from various locations to ensure efficiency and accessibility for all our clients. Despite the area code, I’m here to assist you fully."<br>
+                    <strong>Ask:</strong> "Wouldn’t you agree that having the right assistance is more important than the area code? Let’s continue to ensure your needs are met."<br>
+                    <strong>Engage:</strong> "I’ll guide you step by step to make sure we address everything you need."</p>
+                <p>An IP phone, or Internet Protocol phone, is a type of telephone that uses Voice over Internet Protocol (VoIP) technology to make and receive calls over the internet rather than traditional telephone lines.</p>
+            </div>
+
+            <div class="objection">
+                <h4>Stop Calling Me, Put Me on the Do Not Call List (DNC)</h4>
+                <p><strong>Acknowledge:</strong> "I understand, [<span class="placeholder">Client's Name</span>], and I apologize for the inconvenience."<br>
+                    <strong>Check:</strong> "I’ll add your number to our Do Not Call list right away."<br>
+                    <strong>Engage:</strong> "Thank you for your time, and have a great day."</p>
+                <p>Overall, agents may receive many requests for placement on DNC lists due to factors such as call volume, timing of calls, targeting effectiveness, repeated contact attempts, lack of interest, and privacy concerns. Addressing these issues through better targeting, improved timing of calls, and respecting client preferences can help reduce the number of opt-out requests received.</p>
+            </div>
+
+            <div class="objection">
+                <h4>What Is the Highest Coverage I'm Eligible For?</h4>
+                <p>“<span class="placeholder">Clients name</span>” With Final Expense coverage, these state plans can provide you with a maximum $50,000 worth of coverage. The best part of this is there is no expiration date and designed for people on a limited or fixed income.</p>
+            </div>
+
+            <div class="objection">
+                <h4>Where Are You Calling From?</h4>
+                <p>“<span class="placeholder">Clients name</span>” Our office is located at the Cambridge Innovation Center (On the corner of 20th Ave and 7th St)<br>
+                    1951 NW 7th Avenue #600<br>
+                    Miami Florida<br>
+                    Zip code 33136<br>
+                    Phone number: 18449401851</p>
+            </div>
+
+            <div class="objection">
+                <h4>I Have Medicare/Medicaid, I Don't Need Final Expense Insurance</h4>
+                <p><strong>Acknowledge:</strong> "I completely understand, [<span class="placeholder">Client's Name</span>]. Many people think Medicare or Medicaid covers everything."<br>
+                    <strong>Check:</strong> "Medicare and Medicaid are federal health insurance programs designed to cover medical costs. However, Final Expense insurance is specifically intended to provide a death benefit to cover funeral, burial, and other end-of-life expenses."<br>
+                    <strong>Ask:</strong> "Do you currently have a policy in place for these costs?"</p>
+                <p>A call center agent should understand that Medicare is a federal health insurance program primarily for individuals aged 65 and older, covering hospital care, medical services, and prescription drugs, while final expense insurance is a type of life insurance providing a death benefit intended to cover funeral, burial, and other end-of-life expenses. Medicare eligibility is based on age or specific medical conditions, while final expense insurance is generally available to individuals of various ages with simplified underwriting processes. Medicare covers medical expenses during an individual's lifetime, whereas final expense insurance specifically addresses funeral and burial costs, with premiums tailored to factors such as age and health status.</p>
+            </div>
+
+            <div class="objection">
+                <h4>How Long Is This Going to Take?</h4>
+                <p><strong>Acknowledge:</strong> "I completely understand, [<span class="placeholder">Client's Name</span>]. Your time is valuable, and I want to respect that."<br>
+                    <strong>Check:</strong> "This process is quick and straightforward. It typically takes just a few minutes to gather the information needed to show you your best options."<br>
+                    <strong>Ask:</strong> "Wouldn’t you agree it’s worth taking a brief moment to ensure you’re covered properly? Let’s get started."<br>
+                    <strong>Engage:</strong> "I’ll guide you step by step and make this as efficient as possible."</p>
+                <p>Clients need to understand that Life Insurance isn't a one size fits all. Overall, clients may inquire about the duration of the call to manage their time effectively, set expectations, address urgent needs, however it's important for you to build value and have client understand how important protection is. We go a step and beyond to ensure value knowledge and saving vs getting an online quote.</p>
+            </div>
+
+            <div class="objection">
+                <h4>Are You Certified?</h4>
+                <p><strong>Acknowledge:</strong> "Absolutely, [<span class="placeholder">Client's Name</span>]. That’s an important question, and I appreciate you asking."<br>
+                    <strong>Check:</strong> "We are certified, licensed, and work with carriers that are A+ rated by the Better Business Bureau (BBB). You’re in trusted hands."<br>
+                    <strong>Engage:</strong> "I’ll guide you step by step to ensure you get the best possible options."</p>
+                <p>Clients may ask if company is certified to verify their qualifications, ensure quality service, and meet any specific requirements or preferences they may have Ensure to confidently affirm our team's certification status when clients inquire. Reassure them of our expertise and commitment to providing top-notch service. If needed, offer to provide further details or documentation to alleviate any concerns. Stay positive and professional throughout the interaction. You've got this!"</p>
+            </div>
+
+            <div class="objection">
+                <h4>Why Do You Keep Calling Me Without Leaving a Message?</h4>
+                <p><strong>Acknowledge:</strong> "I understand how frustrating that can be, [<span class="placeholder">Client's Name</span>], and I truly appreciate your patience."<br>
+                    <strong>Check:</strong> "We don’t leave voicemails because we prioritize your confidentiality. It’s important to confirm we’re speaking directly with you to avoid sharing personal information by accident."<br>
+                    <strong>Engage:</strong> "I’ll guide you through the process step by step to ensure your needs are addressed securely."</p>
+                <p>Make sure to use nurturing tonality</p>
+            </div>
+
+            <div class="objection">
+                <h4>I Did Not Leave a Request for Life Insurance</h4>
+                <p><strong>1. Acknowledge:</strong> "I completely understand, [<span class="placeholder">Client’s Name</span>], and I appreciate you taking a moment to speak with me."<br>
+                    <strong>2. Check & Clarify:</strong> "I do have your name here as [First Name, Last Name] and your date of birth as [MM-DD-YYYY]. It’s possible that a loved one or spouse inquired on your behalf. Does that sound familiar?"<br>
+                    If they say NO: "I understand, [<span class="placeholder">Client’s Name</span>]. Our priority is to provide valuable information to individuals who may benefit from this type of coverage. Let me ask—do you currently have a plan in place to ensure your family doesn’t have to pay out of pocket for final expenses?"<br>
+                    (If they say YES, proceed with a Comparison Approach.)<br>
+                    (If they say NO, handle it as a Not Interested Objection.)<br>
+                    <strong>3. Engage:</strong> "I’d love to take just a moment to go over how this works. I’ll guide you step by step to make sure you have the right information for when the time comes. Let’s get started..."</p>
+                <p>Client might forget due to memory loss. Be sure to mirror tone and repeat back information</p>
+            </div>
+
+            <h3>Other Useful Secondary Objection Responses</h3>
+            <ul>
+                <li>As an insurance brokerage, we work with multiple A+ rated companies with very competitive pricing and our licensed advisor could search the market for you to get you the most affordable options that you qualify for and tailor it to your needs and budget, it’s a free and no obligation consultation okay?</li>
+                <li>Client’s Name, you took the time to visit our website and leave personal information there, I am sure you would only do this if it was of importance to you, right? Let me explain how we can help with that. Get into value building by explaining the process, benefits of getting life insurance and customized rates.</li>
+                <li>Here at Insurance Supermarket, we work in providing you the best coverage at the best possible price with A+ rated and most trusted companies such as EMC Insurance”.</li>
+                <li>You haven’t seen our rates yet we have exciting products with great benefits and we come out with new products every day that fit your particular needs</li>
+                <li>We receive the best and most competitive premium rates.</li>
+                <li>Since we have the most competitive prices in the market and having your information with me on file, we can do a quick verification and have one of our expert advisors join us and present the options which you could compare with what you currently have. These are not your typical online rates therefore you’ll be saving far more.</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Insurance Supermarket International Inc. | Partnered with EMC National Life | Last Updated: October 30, 2025</p>
+            <p><em>This job aid is expandable — additional scripts, rebuttals, and product updates will be added.</em></p>
+        </footer>
+    </div>
+</body>
+</html>
